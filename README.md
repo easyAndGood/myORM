@@ -7,8 +7,8 @@ myORM是一个简单的Golang ORM框架。本框架的实现，参考了XORM、G
 * 记录（record，行数据）--> 对象（object）
 * 字段（field）--> 对象的属性（attribute）
 
-ORM 使用对象，封装了数据库操作，可以减少SQL语局的使用。开发者只使用面向对象编程，与数据对象直接交互，不用关心底层数据库。但是，ORM并不能完全取代SQL语句的使用。因为，对于复杂的查询，ORM 要么是无法表达，要么是性能不如原生的 SQL。
-Golang并没有自带的ORM框架，比较流行的第三方框架有XORM、GORM等等。参考了XORM、GORM和GeeORM等框架，笔者也开发了一个简单的ORM框架——easyORM，目前已具备了常见ORM需要的基础功能。
+ORM 使用对象，封装了数据库操作，可以减少SQL语句的使用。开发者只使用面向对象编程，与数据对象直接交互，不用关心底层数据库。但是，ORM并不能完全取代SQL语句的使用。因为，对于复杂的查询，ORM 要么是无法表达，要么是性能不如原生的 SQL。
+Golang并没有自带的ORM框架，比较流行的第三方框架有XORM、GORM等等。参考了XORM、GORM和GeeORM等框架，笔者也开发了一个简单的ORM框架——myORM，目前已具备了常见ORM需要的基础功能。
 ## 功能
 * 对象与表框架的映射：本框架能基于传入对象解析其结构体（struct），在数据库中建立同名的数据表，根据结构体的字段设置同名、对应类型的数据表字段（属性）。
 * 记录的插入：本框架能根据传入对象（或对象的切片）在数据表中插入一条（或多条）对应的记录。
@@ -170,4 +170,4 @@ func (指针名 *类名) 函数名(s *Session) error {
  
 ## 运行截图
 
-![image](https://github.com/Suuuuuu96/easyORM/blob/main/img/orm1.png)
+![image](https://github.com/easyAndGood/myORM/blob/main/img/orm1.png)
