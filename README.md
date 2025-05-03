@@ -1,6 +1,6 @@
 ﻿
-# easyORM
-myORM是一个简单的Golang ORM框架。本框架的实现，参考了XORM、GORM和GeeORM的开发思路和源代码。在此，我需要先向这些库的开发人员和相关贡献者表达我的敬意。
+# myORM
+myORM是一个简单的Golang ORM框架。本框架的实现，参考了XORM、GORM和GeeORM的开发思路和源代码。
 ## 前言
 对象关系映射（Object Relational Mapping，简写为ORM），是一种程序设计技术，用于实现面向对象编程语言里不同类型系统的数据之间的转换。对象关系映射，是关系型数据库和程序设计中的对象之间的映射：
 * 数据库的表（table） --> 类（class）
