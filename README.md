@@ -165,9 +165,3 @@ func (指针名 *类名) 函数名(s *Session) error {
 其中，函数名必须是"BeforeQuery"、"AfterQuery"、"BeforeUpdate"、"AfterUpdate"、"BeforeDelete"、"AfterDelete"、"BeforeInsert"、"AfterInsert"之一。<br>
 这些函数接收且仅接收一个参数：对应的会话的指针。<br>
 用户可以根据自己的需要，利用获得的对应会话的指针，设置自己需要的操作（当然也可以不使用该会话）。用户只能操作 Account指针 或 Session指针 ，不能返回值。函数仅返回一个error。
-
-
- 
-## 运行截图
-
-![image](https://github.com/easyAndGood/myORM/blob/main/img/orm1.png)
